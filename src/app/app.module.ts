@@ -8,6 +8,10 @@ import { HomeComponent } from './components/home/home.component';
 import { UsersComponent } from './components/users/users.component';
 import { MobileNavComponent } from './components/mobile-nav/mobile-nav.component';
 import { DesktopNavComponent } from './components/desktop-nav/desktop-nav.component';
+import { AboutComponent } from './components/about/about.component';
+import { InfoComponent } from './components/info/info.component';
+import { ProyectComponent } from './components/proyect/proyect.component';
+import { AccountComponent } from './components/account/account.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -21,7 +25,11 @@ const routes: Routes = [
     HomeComponent,
     UsersComponent,
     MobileNavComponent,
-    DesktopNavComponent
+    DesktopNavComponent,
+    AboutComponent,
+    InfoComponent,
+    ProyectComponent,
+    AccountComponent
   ],
   imports: [
     BrowserModule,
