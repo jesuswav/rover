@@ -16,7 +16,11 @@ import { AccountComponent } from './components/account/account.component';
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'users', component: UsersComponent },
-  { path: 'users', component: UsersComponent }
+  { path: 'users', component: UsersComponent },
+  { path: 'about', component: AboutComponent },
+  { path: 'proyect', component: ProyectComponent },
+  { path: 'info', component: InfoComponent },
+  { path: 'account', component: AccountComponent },
 ]
 
 @NgModule({
