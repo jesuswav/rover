@@ -1,16 +1,17 @@
 .AboutImg {
     display: flex;
-    justify-content: space-between;
-    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 img {
     height: 200px;
     width: 400px;
+    margin: 0 10px;
 }
 
 body {
-    color: gray
+    color: gray;
 }
 
 .AboutText {
