@@ -17,12 +17,12 @@ import { LogoutComponent } from './components/logout/logout.component';
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'users', component: UsersComponent },
-  { path: 'logout', component: LogoutComponent },
   { path: 'about', component: AboutComponent },
-  { path: 'proyect', component: ProyectComponent },
   { path: 'info', component: InfoComponent },
+  { path: 'proyect', component: ProyectComponent },
+  { path: 'logout', component: LogoutComponent },
   { path: 'account', component: AccountComponent },
-]
+];
 
 @NgModule({
   declarations: [
@@ -35,15 +35,15 @@ const routes: Routes = [
     InfoComponent,
     ProyectComponent,
     AccountComponent,
-    LogoutComponent
+    LogoutComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     RouterModule,
-    RouterModule.forRoot(routes)
+    RouterModule.forRoot(routes),
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

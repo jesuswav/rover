@@ -1,0 +1,21 @@
+.AboutImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    height: 200px;
+    width: 400px;
+    margin: 0 10px;
+}
+
+body {
+    color: gray;
+}
+
+.AboutText {
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+}
