@@ -12,11 +12,12 @@ import { AboutComponent } from './components/about/about.component';
 import { InfoComponent } from './components/info/info.component';
 import { ProyectComponent } from './components/proyect/proyect.component';
 import { AccountComponent } from './components/account/account.component';
+import { LogoutComponent } from './components/logout/logout.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'users', component: UsersComponent },
-  { path: 'users', component: UsersComponent },
+  { path: 'logout', component: LogoutComponent },
   { path: 'about', component: AboutComponent },
   { path: 'proyect', component: ProyectComponent },
   { path: 'info', component: InfoComponent },
@@ -33,7 +34,8 @@ const routes: Routes = [
     AboutComponent,
     InfoComponent,
     ProyectComponent,
-    AccountComponent
+    AccountComponent,
+    LogoutComponent
   ],
   imports: [
     BrowserModule,
