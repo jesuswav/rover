@@ -16,16 +16,9 @@ import { AccountComponent } from './components/account/account.component';
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'users', component: UsersComponent },
-<<<<<<< HEAD
-  { path: 'about', component: AboutComponent },
-  { path: 'info', component: InfoComponent },
-  { path: 'proyect', component: ProyectComponent },
-=======
-  { path: 'users', component: UsersComponent },
   { path: 'about', component: AboutComponent },
   { path: 'proyect', component: ProyectComponent },
   { path: 'info', component: InfoComponent },
->>>>>>> 6417ac3364a17d323abcdd5535751f5677894d89
   { path: 'account', component: AccountComponent },
 ]
 
