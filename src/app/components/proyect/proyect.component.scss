@@ -2,6 +2,11 @@ body {
     color: gray;
 }
 
+.Proyect {
+    display: flex;
+    flex-direction: row;
+}
+
 .ProyectText {
     font-size: 30px;
     text-align: center;
