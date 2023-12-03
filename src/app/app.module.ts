@@ -13,6 +13,7 @@ import { InfoComponent } from './components/info/info.component';
 import { ProyectComponent } from './components/proyect/proyect.component';
 import { AccountComponent } from './components/account/account.component';
 import { LogoutComponent } from './components/logout/logout.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -36,6 +37,7 @@ const routes: Routes = [
     ProyectComponent,
     AccountComponent,
     LogoutComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
